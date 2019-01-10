@@ -1,0 +1,56 @@
+body {
+    text-align: ;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: ;
+    color: white;
+    background-color: #444444;
+    text-align: center;
+    }
+     
+    h1 {
+    font-size: 2rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    }
+     
+    p {
+     font-size: 1rem;
+     letter-spacing: 1px;
+    }
+
+    img {
+        opacity: 0.5;
+    }
+
+    img:hover {
+        opacity: 1;
+    }
+
+    a {
+        color: rgba(255, 245, 253, 0.5);
+    }
+
+    a:hover {
+        color: white;
+    }
+
+    ol {
+       display: inline-block;
+       margin-left: auto;
+       margin-right: auto;
+       text-align: left;
+    }
+
+    button {
+        border-radius: 20px;
+        width: 20%;
+        height: 3%;
+    }
+
+.the-text { 
+    color: blue;
+ }
+
+.the-text.colorized { 
+    color: pink; font-size: 2rem;
+ }
