@@ -5,10 +5,7 @@ html {
 
 body {
   background-color: #706a6a;
-}
 
-.border {
-  
 }
 
 h1, h2 {
@@ -19,6 +16,7 @@ h1, h2 {
 h1 {
   font-size: 240%;
   text-align: center;
+
 }
 
 h2 {
@@ -28,6 +26,7 @@ h2 {
 article {
   width: 50rem;
   margin: 0 auto;
+  border: 4px red solid;
 }
 
 section {
@@ -58,3 +57,4 @@ a {
   background-color:#5a605b;
   
 }
+

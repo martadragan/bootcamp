@@ -1,0 +1,63 @@
+* {
+    list-style: none;
+    padding: 0;
+}
+
+.skills {
+    color: pink;
+    margin: 60px auto;
+    width: 500px;
+}
+
+.skills li {
+    margin: 20px 0;
+}
+
+.bar {
+    background: teal;
+    overflow: hidden;
+    display: block;
+    height: 5px;
+    border: 2px solid yellow;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.3)
+}
+
+.bar span {
+    height: 5px;
+    background: blue;
+    float: left;
+}
+
+
+.html {
+    width: 90%;
+    animation: html 2s;
+}
+
+.css {
+    width: 65%;
+    animation: css 2s;
+}
+
+.javascript {
+    width: 20%;
+}
+
+@keyframes html {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 90%;
+    }
+}
+
+@keyframes css {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 65%;
+    }
+}
